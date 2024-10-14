@@ -19,8 +19,9 @@ FINE_TUNE_LEARNING_RATE = 1e-5
 FINE_TUNE_AT = -20  # Number of layers to fine-tune
 
 # Data paths
-TRAIN_DIR = 'path/to/your/train/data'
-VALID_DIR = 'path/to/your/validation/data'
+TRAIN_DIR = "C:/Users/Lahiru/OneDrive - University of Jaffna/Desktop/Research 2020.10.09/Road signal detection/Road-signal-detection-R1/Road signal detection.v1i.tfrecord/train"
+
+VALID_DIR = "C:/Users/Lahiru/OneDrive - University of Jaffna/Desktop\Research 2020.10.09/Road signal detection/Road-signal-detection-R1/Road signal detection.v1i.tfrecord/valid"
 
 # Data Augmentation and Preprocessing
 train_datagen = ImageDataGenerator(

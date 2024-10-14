@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['blueboard', 'crossing', 'yellowboard']
+
+roboflow:
+  workspace: research-project-dp1yk
+  project: road-signal-detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/research-project-dp1yk/road-signal-detection/dataset/1

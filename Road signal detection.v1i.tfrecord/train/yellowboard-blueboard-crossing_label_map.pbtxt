@@ -1,0 +1,15 @@
+item {
+    name: "blueboard",
+    id: 1,
+    display_name: "blueboard"
+}
+item {
+    name: "crossing",
+    id: 2,
+    display_name: "crossing"
+}
+item {
+    name: "yellowboard",
+    id: 3,
+    display_name: "yellowboard"
+}
